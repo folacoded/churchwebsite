@@ -1,0 +1,416 @@
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(img/images/redeem2.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+.logo{
+    width:150px;
+    margin-top: 18px;
+
+}
+
+.header{
+    height:10%;
+}
+.header-btn{
+    text-decoration: none!important;
+    border-radius: 30px;
+    padding:7px 20px;
+    float:right;
+    margin-top:35px;
+    color:#fff!important;
+    background:#107afd;
+    font-weight:600px; 
+     
+}
+.download-btn{
+    border:1px solid #fff!important;
+    background: transparent!important;
+}
+.fa{
+    margin:0 5px;
+}
+.sermon-img{
+    box-shadow:-4px 4px 5px 0 #000;
+    height: 350px;
+}
+
+.sermon-details{
+    margin:3% 0;
+}
+.sermons h3{
+    color:#fff;
+}
+.sermons img{
+    width:100%;
+     margin-top:15px;
+     box-shadow:-4px 4px 5px 0 #000;
+     cursor: pointer;
+     transition: 1s;
+}
+.sermons img:hover{
+    transform: translateY(-10px);
+}
+.left-box{
+    color:#fff;
+    margin:15px 0;
+    padding:20px;
+
+}
+.casting img{
+    height:40px;
+    width:40px;
+    margin-right: 10px;
+    cursor: pointer;
+     
+}
+.left-box a{
+    text-decoration: none!important;
+    border-radius: 30px;
+    padding:7px 20px;
+    margin-top:35px;
+    color:#fff!important;
+    background:#107afd;
+    font-weight:600;
+    display: inline-block;
+    margin-right: 10px;
+}
+/*------style for Navigation----*/
+#nav-bar{
+    position: sticky;
+    top:0;
+    z-index:10;
+    }
+    .dropdown-menu{
+        background: #333;
+    }
+    .nav-item .dropdown li{
+    background: #333;
+    }
+    
+    .navbar-brand img{
+        height:40px;
+        padding-left:40px;
+    }
+    .navbar-nav li {
+        padding: 0 10px;
+    }
+    .navbar-nav li a{
+        float:right;
+        text-align: left;
+    }
+    #nav-bar ul li a:hover{
+        color:#007bff!important;
+    
+    }
+    .navbar{
+        background: #fff;
+        background: linear-gradient(darkred 20%, black 80%);
+        background: 10px;
+    }
+    .navbar-toggler{
+        border:none!important;
+    }
+    .nav-link{
+        color:#fff!important;
+        font-weight:600;
+        font-size:16px;
+    }
+    .dropdown-menu a, .dropdown-item{
+        background: #333;
+        border:none;
+    }
+
+    /*-------slider----*/
+
+
+
+    .swiper-container 
+  {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: cover;
+}
+  .swiper-slide 
+  {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 380px;
+    background: #fff;}
+
+  .swiper-slide .imgbx
+  {width:100%;
+    height:300px;
+    overflow:hidden;
+}
+.swiper-slide .imgbx img
+{ width:100%;
+
+}
+.swiper-slide .imgbx details{
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.swiper-slide .imgbx details h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+#message{
+  padding:40px 0;
+  background: #efefef;
+}
+.single-message
+{
+  margin:10px auto;
+  display:inline;
+  background-color:#fff;
+  transition:0.5s;
+  float:left;
+  width:100%;
+}
+.single-message:hover{
+  box-shadow: 0 2px 20px #333;
+}
+.message-head{
+  background-color: #2196f3;
+  display:inline;
+  float:left;
+  padding:10px 5px;
+  text-align: center;
+  width:100%;
+}
+.message-head h2{
+  color:#fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom:5px;
+  padding:5px;
+  text-transform:uppercase;
+}
+.message-head p{
+  font-size: 25px;
+  color:#ccc;
+  font-weight: bold;
+  line-height: 30px;
+}
+#message span{
+  font-size: 15px;
+}
+.message-content{
+  display:inline;
+  float:left;
+  width:100%;
+  padding:0 15px;
+}
+.message-content ul li{
+  border-bottom:1px solid #efefef;
+  padding:15px 10px;
+  list-style: none;
+}
+ul li:last-child{
+  border:none;
+}
+.fa-check-circle{
+  color:green;
+  margin-right:10px;
+  font-size: 20px;
+}
+.message-button{
+  display:inline;
+  float:left;
+  padding:15px 15px 30px;
+  text-align: center;
+  width:100%;
+}
+.buy-btn{
+  background-color:#2196f3;
+  border-radius:3px;
+  display: inline-block;
+  font-size: 18px;
+  padding:15px 50px;
+  transition: 0.5s;
+  }
+  .buy-btn:hover{
+      border-color:1px solid #fff;
+      background-color: #3f51b5;
+  }
+  a{
+      text-decoration: none!important;
+      color:#fff!important;
+  }
+
+    /*-------footer*/
+    footer{
+        position: relative;
+        bottom: 0;
+      }
+      .footer-distributed{
+        background: linear-gradient(darkred 20%, black 80%);
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        font: bold 16px sans-serif;
+       
+        padding: 55px 50px;
+        margin-top: 80px;
+      }
+       
+      .footer-distributed .footer-left,
+      .footer-distributed .footer-center,
+      .footer-distributed .footer-right{
+        display: inline-block;
+        vertical-align: top;
+      }
+       
+      .footer-distributed .footer-left{
+        width: 40%;
+      }
+       
+      .footer-distributed h3{
+        color:  #ffffff;
+        font: normal 36px 'Cookie', cursive;
+        margin: 0;
+      }
+       
+      .footer-distributed h3 span{
+        color:  #5383d3;
+      }
+       
+       
+      .footer-distributed .footer-links{
+        color:  #ffffff;
+        margin: 20px 0 12px;
+        padding: 0;
+      }
+       
+      .footer-distributed .footer-links a{
+        display:inline-block;
+        line-height: 1.8;
+        text-decoration: none;
+        color:  inherit;
+      }
+       
+      .footer-distributed .footer-company-name{
+        color:  #8f9296;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+      }
+       
+       
+      .footer-distributed .footer-center{
+        width: 35%;
+      }
+       
+      .footer-distributed .footer-center i{
+        background-color:  #33383b;
+        color: #ffffff;
+        font-size: 25px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 42px;
+        margin: 10px 15px;
+        vertical-align: middle;
+      }
+       
+      .footer-distributed .footer-center i.fa-envelope{
+        font-size: 17px;
+        line-height: 38px;
+      }
+       
+      .footer-distributed .footer-center p{
+        display: inline-block;
+        color: #ffffff;
+        vertical-align: middle;
+        margin:0;
+      }
+       
+      .footer-distributed .footer-center p span{
+        display:block;
+        font-weight: normal;
+        font-size:14px;
+        line-height:2;
+      }
+       
+      .footer-distributed .footer-center p a{
+        color:  #5383d3;
+        text-decoration: none;;
+      }
+       
+      .footer-distributed .footer-right{
+        width: 20%;
+      }
+       
+      .footer-distributed .footer-company-about{
+        line-height: 20px;
+        color:  #92999f;
+        font-size: 13px;
+        font-weight: normal;
+        margin: 0;
+      }
+       
+      .footer-distributed .footer-company-about span{
+        display: block;
+        color:  #ffffff;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+       
+      .footer-distributed .footer-icons{
+        margin-top: 25px;
+      }
+       
+      .footer-distributed .footer-icons a{
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        background-color:  #33383b;
+        border-radius: 2px;
+       
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 35px;
+       
+        margin-right: 3px;
+        margin-bottom: 5px;
+      }
+       
+       
+      @media (max-width: 880px) {
+       
+        .footer-distributed{
+          font: bold 14px sans-serif;
+        
+        }
+       
+        .footer-distributed .footer-left,
+        .footer-distributed .footer-center,
+        .footer-distributed .footer-right{
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+          text-align: center;
+        }
+       
+        .footer-distributed .footer-center i{
+          margin-left: 0;
+        }
